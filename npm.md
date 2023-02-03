@@ -51,8 +51,10 @@ npm config get registry
 ## 将下包的镜像源切换为淘宝镜像源
 
 ```
-npm config set registry=https://registry.npm.taobao.org/
+npm config set registry=https://registry.npmmirror.com/
 ```
+
+注：原淘宝镜像解析地址于22年更改，可以通过  nrm ls  代码查看最新的解析地址
 
 ## 检查镜像源是否下载成功
 
